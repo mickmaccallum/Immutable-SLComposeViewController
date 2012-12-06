@@ -9,7 +9,7 @@ the text is withing the "editable text" or the "permanent text" and return YES o
 NOTE: If you wish to prevent the user from modifying ANY of the text, modify ```(BOOL)textView:shouldChangeTextInRange:replacementText``` to look like this:
 
 
-```objective-c- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
+```objective c - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
 {
     if (textView == sharingTextView) {
         return NO;
