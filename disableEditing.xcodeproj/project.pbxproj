@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		007FA9431670C7E7007CCC21 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 007FA9421670C7E7007CCC21 /* README.md */; };
+		007FA9451670CB08007CCC21 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 007FA9441670CB08007CCC21 /* README.md */; };
 		00CBFBC7166FDB4C00BEBDF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CBFBC6166FDB4C00BEBDF4 /* UIKit.framework */; };
 		00CBFBC9166FDB4C00BEBDF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CBFBC8166FDB4C00BEBDF4 /* Foundation.framework */; };
 		00CBFBCB166FDB4C00BEBDF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CBFBCA166FDB4C00BEBDF4 /* CoreGraphics.framework */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		007FA9421670C7E7007CCC21 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		007FA9441670CB08007CCC21 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		00CBFBC2166FDB4C00BEBDF4 /* disableEditing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = disableEditing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00CBFBC6166FDB4C00BEBDF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		00CBFBC8166FDB4C00BEBDF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,7 +83,7 @@
 			children = (
 				00CBFBE1166FDB4C00BEBDF4 /* ViewController.h */,
 				00CBFBE2166FDB4C00BEBDF4 /* ViewController.m */,
-				007FA9421670C7E7007CCC21 /* README.md */,
+				007FA9441670CB08007CCC21 /* README.md */,
 				00CBFBCD166FDB4C00BEBDF4 /* Ignore */,
 			);
 			path = disableEditing;
@@ -154,7 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00CBFBE0166FDB4C00BEBDF4 /* MainStoryboard.storyboard in Resources */,
-				007FA9431670C7E7007CCC21 /* README.md in Resources */,
+				007FA9451670CB08007CCC21 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
