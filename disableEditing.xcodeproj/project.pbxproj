@@ -7,36 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		007FA9431670C7E7007CCC21 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 007FA9421670C7E7007CCC21 /* README.md */; };
 		00CBFBC7166FDB4C00BEBDF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CBFBC6166FDB4C00BEBDF4 /* UIKit.framework */; };
 		00CBFBC9166FDB4C00BEBDF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CBFBC8166FDB4C00BEBDF4 /* Foundation.framework */; };
 		00CBFBCB166FDB4C00BEBDF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CBFBCA166FDB4C00BEBDF4 /* CoreGraphics.framework */; };
-		00CBFBD1166FDB4C00BEBDF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00CBFBCF166FDB4C00BEBDF4 /* InfoPlist.strings */; };
 		00CBFBD3166FDB4C00BEBDF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CBFBD2166FDB4C00BEBDF4 /* main.m */; };
 		00CBFBD7166FDB4C00BEBDF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CBFBD6166FDB4C00BEBDF4 /* AppDelegate.m */; };
-		00CBFBD9166FDB4C00BEBDF4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 00CBFBD8166FDB4C00BEBDF4 /* Default.png */; };
-		00CBFBDB166FDB4C00BEBDF4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00CBFBDA166FDB4C00BEBDF4 /* Default@2x.png */; };
-		00CBFBDD166FDB4C00BEBDF4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00CBFBDC166FDB4C00BEBDF4 /* Default-568h@2x.png */; };
 		00CBFBE0166FDB4C00BEBDF4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CBFBDE166FDB4C00BEBDF4 /* MainStoryboard.storyboard */; };
 		00CBFBE3166FDB4C00BEBDF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CBFBE2166FDB4C00BEBDF4 /* ViewController.m */; };
+		00CBFBED166FDBB400BEBDF4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CBFBEC166FDBB400BEBDF4 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		007FA9421670C7E7007CCC21 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		00CBFBC2166FDB4C00BEBDF4 /* disableEditing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = disableEditing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00CBFBC6166FDB4C00BEBDF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		00CBFBC8166FDB4C00BEBDF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00CBFBCA166FDB4C00BEBDF4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		00CBFBCE166FDB4C00BEBDF4 /* disableEditing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "disableEditing-Info.plist"; sourceTree = "<group>"; };
-		00CBFBD0166FDB4C00BEBDF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00CBFBD2166FDB4C00BEBDF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00CBFBD4166FDB4C00BEBDF4 /* disableEditing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "disableEditing-Prefix.pch"; sourceTree = "<group>"; };
 		00CBFBD5166FDB4C00BEBDF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		00CBFBD6166FDB4C00BEBDF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		00CBFBD8166FDB4C00BEBDF4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		00CBFBDA166FDB4C00BEBDF4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		00CBFBDC166FDB4C00BEBDF4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		00CBFBDF166FDB4C00BEBDF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		00CBFBE1166FDB4C00BEBDF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		00CBFBE2166FDB4C00BEBDF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00CBFBEC166FDBB400BEBDF4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00CBFBED166FDBB400BEBDF4 /* Social.framework in Frameworks */,
 				00CBFBC7166FDB4C00BEBDF4 /* UIKit.framework in Frameworks */,
 				00CBFBC9166FDB4C00BEBDF4 /* Foundation.framework in Frameworks */,
 				00CBFBCB166FDB4C00BEBDF4 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +53,7 @@
 		00CBFBB7166FDB4C00BEBDF4 = {
 			isa = PBXGroup;
 			children = (
+				00CBFBEC166FDBB400BEBDF4 /* Social.framework */,
 				00CBFBCC166FDB4C00BEBDF4 /* disableEditing */,
 				00CBFBC5166FDB4C00BEBDF4 /* Frameworks */,
 				00CBFBC3166FDB4C00BEBDF4 /* Products */,
@@ -83,28 +81,25 @@
 		00CBFBCC166FDB4C00BEBDF4 /* disableEditing */ = {
 			isa = PBXGroup;
 			children = (
-				00CBFBD5166FDB4C00BEBDF4 /* AppDelegate.h */,
-				00CBFBD6166FDB4C00BEBDF4 /* AppDelegate.m */,
-				00CBFBDE166FDB4C00BEBDF4 /* MainStoryboard.storyboard */,
 				00CBFBE1166FDB4C00BEBDF4 /* ViewController.h */,
 				00CBFBE2166FDB4C00BEBDF4 /* ViewController.m */,
-				00CBFBCD166FDB4C00BEBDF4 /* Supporting Files */,
+				007FA9421670C7E7007CCC21 /* README.md */,
+				00CBFBCD166FDB4C00BEBDF4 /* Ignore */,
 			);
 			path = disableEditing;
 			sourceTree = "<group>";
 		};
-		00CBFBCD166FDB4C00BEBDF4 /* Supporting Files */ = {
+		00CBFBCD166FDB4C00BEBDF4 /* Ignore */ = {
 			isa = PBXGroup;
 			children = (
+				00CBFBD5166FDB4C00BEBDF4 /* AppDelegate.h */,
+				00CBFBD6166FDB4C00BEBDF4 /* AppDelegate.m */,
+				00CBFBDE166FDB4C00BEBDF4 /* MainStoryboard.storyboard */,
 				00CBFBCE166FDB4C00BEBDF4 /* disableEditing-Info.plist */,
-				00CBFBCF166FDB4C00BEBDF4 /* InfoPlist.strings */,
 				00CBFBD2166FDB4C00BEBDF4 /* main.m */,
 				00CBFBD4166FDB4C00BEBDF4 /* disableEditing-Prefix.pch */,
-				00CBFBD8166FDB4C00BEBDF4 /* Default.png */,
-				00CBFBDA166FDB4C00BEBDF4 /* Default@2x.png */,
-				00CBFBDC166FDB4C00BEBDF4 /* Default-568h@2x.png */,
 			);
-			name = "Supporting Files";
+			name = Ignore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,11 +153,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00CBFBD1166FDB4C00BEBDF4 /* InfoPlist.strings in Resources */,
-				00CBFBD9166FDB4C00BEBDF4 /* Default.png in Resources */,
-				00CBFBDB166FDB4C00BEBDF4 /* Default@2x.png in Resources */,
-				00CBFBDD166FDB4C00BEBDF4 /* Default-568h@2x.png in Resources */,
 				00CBFBE0166FDB4C00BEBDF4 /* MainStoryboard.storyboard in Resources */,
+				007FA9431670C7E7007CCC21 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,14 +174,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		00CBFBCF166FDB4C00BEBDF4 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00CBFBD0166FDB4C00BEBDF4 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		00CBFBDE166FDB4C00BEBDF4 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,6 +276,7 @@
 				00CBFBE8166FDB4C00BEBDF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
