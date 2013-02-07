@@ -9,6 +9,7 @@ the text is withing the "editable text" or the "permanent text" and return YES o
 NOTE: If you wish to prevent the user from modifying ANY of the text, modify ```(BOOL)textView:shouldChangeTextInRange:replacementText``` to look like this:
 
 
+
 ```objective-c
 - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
 {
@@ -19,6 +20,8 @@ NOTE: If you wish to prevent the user from modifying ANY of the text, modify ```
 }
 ```
 
+ANOTHER NOTE: So far this project only can prevent users from editing text when sharing to Twitter. As it turns out, the composers for Facebook
+and Weibo have completely different view structures. I will update this project if/when I figure out how to make this work with the other SLServiceTypes.
 
 
 Created by Michael MacCallum on 11/25/12.
